@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.22",
+	"FriendlyName": "ImGui",
+	"Description": "",
+	"Category": "Debug",
+	"CreatedBy": "LeoGame",
+	"CreatedByURL": "https://www.fab.com/sellers/LeoGame",
+	"DocsURL": "https://github.com/duliyouxijuzi/Unreal-ImGui",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/5dcd4614-3427-48e8-b7f0-610d108360d7",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ImGui",
+			"Type": "DeveloperTool",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		}
+	]
+}
