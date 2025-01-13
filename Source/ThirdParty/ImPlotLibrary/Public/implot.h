@@ -1,6 +1,8 @@
-// MIT License
+// Copyright (c) 2023 Evan Pezent. All Rights Reserved.
+// Published by LeoGame in 2025.
+// This project is distributed under the MIT License (MIT).
 
-// Copyright (c) 2023 Evan Pezent
+// MIT License
 
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
