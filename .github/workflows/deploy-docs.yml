@@ -30,10 +30,14 @@ jobs:
           node-version: 22
           cache: pnpm
 
-      - name: 安装依赖
+      - name: 准备依赖
         run: |
+          npm install -g corepack@latest
+          corepack prepare pnpm@latest --activate
           corepack enable
-          pnpm install --frozen-lockfile
+        
+      - name: 安装依赖
+        run: pnpm install --frozen-lockfile
 
       - name: 构建文档
         env:
